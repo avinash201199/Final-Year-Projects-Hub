@@ -7,19 +7,6 @@ A modern, open-source platform for showcasing and discovering final year student
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwind-css)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## ✨ Features
-
-- **Smart Search & Filter** - Find projects by title, description, or filter by category
-- **Modern Dark UI** - Clean, professional design with smooth animations
-- **Fully Responsive** - Optimized for mobile, tablet, and desktop devices
-- **Featured Projects** - Highlight exceptional projects on the homepage
-- **Project Categories** - Organized by Machine Learning, Web Dev, IoT, Data Science, Blockchain, and more
-- **Project Screenshots** - Visual showcase with uploaded project images
-- **Detailed Project Pages** - Complete information including tech stack, contributors, and GitHub links
-- **Easy Contribution** - Simple process for adding your project to the hub
-- **Contact Form** - Get in touch with the maintainers
-- **About Page** - Learn more about the platform and its mission
-
 ## Tech Stack
 
 - **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
