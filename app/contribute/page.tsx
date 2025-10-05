@@ -38,6 +38,20 @@ export default function ContributePage() {
             </li>
           </ul>
         </div>
+<div className="mb-6 p-4 bg-card border border-border rounded-lg flex items-center justify-between animate-fade-in">
+  <div className="flex items-center gap-2">
+    <GitFork className="h-5 w-5 text-primary" />
+    <span className="font-medium text-lg">Repository Link:</span>
+  </div>
+  <a
+    href="https://github.com/avinash201199/Final-Year-Projects-Hub"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-primary font-semibold hover:underline"
+  >
+    https://github.com/avinash201199/Final-Year-Projects-Hub
+  </a>
+</div>
 
         {/* Step-by-Step Guide */}
         <div className="space-y-8">
@@ -145,7 +159,7 @@ export default function ContributePage() {
                 </p>
                 <div className="bg-background p-4 rounded border border-border font-mono text-sm">
                   <p className="text-muted-foreground mb-2"># Navigate to the repository</p>
-                  <p>https://github.com/your-org/final-year-projects-hub</p>
+                  <p>https://github.com/avinash201199/Final-Year-Projects-Hub</p>
                   <p className="text-muted-foreground mt-2"># Click the "Fork" button in the top right</p>
                 </div>
               </div>
@@ -165,7 +179,7 @@ export default function ContributePage() {
                 <h3 className="text-xl font-bold mb-3">Clone Your Fork</h3>
                 <p className="text-muted-foreground mb-3">Clone the forked repository to your local machine.</p>
                 <div className="bg-background p-4 rounded border border-border font-mono text-sm">
-                  <p>git clone https://github.com/YOUR-USERNAME/final-year-projects-hub.git</p>
+                  <p>git clone https://github.com/avinash201199/Final-Year-Projects-Hub</p>
                   <p>cd final-year-projects-hub</p>
                 </div>
               </div>
@@ -426,7 +440,7 @@ export default function ContributePage() {
               Contact Us
             </a>
             <a
-              href="https://github.com/your-org/final-year-projects-hub/issues"
+              href="https://github.com/avinash201199/Final-Year-Projects-Hub/issues"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-md border border-border bg-background px-6 py-2 text-sm font-medium transition-colors hover:bg-accent"

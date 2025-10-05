@@ -1,8 +1,7 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
+import React from "react"
+import { useForm, ValidationError } from "@formspree/react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -10,28 +9,9 @@ import { Label } from "@/components/ui/label"
 import { Mail, Github, Linkedin, Twitter, CheckCircle2 } from "lucide-react"
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false)
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  })
+  const [state, handleSubmit] = useForm("manpbbpo")
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Simulate form submission
-    setSubmitted(true)
-    setTimeout(() => {
-      setSubmitted(false)
-      setFormData({ name: "", email: "", message: "" })
-    }, 3000)
-  }
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value })
-  }
-
-  if (submitted) {
+  if (state.succeeded) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center max-w-md mx-auto px-4">
@@ -63,11 +43,15 @@ export default function ContactPage() {
                   <Label htmlFor="name">Name *</Label>
                   <Input
                     id="name"
+                    type="text"
                     name="name"
-                    value={formData.name}
-                    onChange={handleChange}
                     placeholder="Your name"
                     required
+                  />
+                  <ValidationError
+                    prefix="Name"
+                    field="name"
+                    errors={state.errors}
                   />
                 </div>
 
@@ -75,12 +59,15 @@ export default function ContactPage() {
                   <Label htmlFor="email">Email *</Label>
                   <Input
                     id="email"
-                    name="email"
                     type="email"
-                    value={formData.email}
-                    onChange={handleChange}
+                    name="email"
                     placeholder="your.email@example.com"
                     required
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
                   />
                 </div>
 
@@ -89,16 +76,19 @@ export default function ContactPage() {
                   <Textarea
                     id="message"
                     name="message"
-                    value={formData.message}
-                    onChange={handleChange}
                     placeholder="Tell us what's on your mind..."
                     rows={6}
                     required
                   />
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
 
-                <Button type="submit" className="w-full" size="lg">
-                  Send Message
+                <Button type="submit" className="w-full" size="lg" disabled={state.submitting}>
+                  {state.submitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </div>
