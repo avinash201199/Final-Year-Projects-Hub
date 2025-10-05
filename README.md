@@ -1,4 +1,4 @@
-# 🎓 Final Year Projects Hub
+#  Final Year Projects Hub
 
 A modern, open-source platform for showcasing and discovering final year student projects. Built with Next.js and designed to help students share their innovative work with the community.
 
@@ -9,18 +9,18 @@ A modern, open-source platform for showcasing and discovering final year student
 
 ## ✨ Features
 
-- **🔍 Smart Search & Filter** - Find projects by title, description, or filter by category
-- **🎨 Modern Dark UI** - Clean, professional design with smooth animations
-- **📱 Fully Responsive** - Optimized for mobile, tablet, and desktop devices
-- **⭐ Featured Projects** - Highlight exceptional projects on the homepage
-- **📊 Project Categories** - Organized by Machine Learning, Web Dev, IoT, Data Science, Blockchain, and more
-- **🖼️ Project Screenshots** - Visual showcase with uploaded project images
-- **📝 Detailed Project Pages** - Complete information including tech stack, contributors, and GitHub links
-- **🤝 Easy Contribution** - Simple process for adding your project to the hub
-- **📬 Contact Form** - Get in touch with the maintainers
-- **ℹ️ About Page** - Learn more about the platform and its mission
+- **Smart Search & Filter** - Find projects by title, description, or filter by category
+- **Modern Dark UI** - Clean, professional design with smooth animations
+- **Fully Responsive** - Optimized for mobile, tablet, and desktop devices
+- **Featured Projects** - Highlight exceptional projects on the homepage
+- **Project Categories** - Organized by Machine Learning, Web Dev, IoT, Data Science, Blockchain, and more
+- **Project Screenshots** - Visual showcase with uploaded project images
+- **Detailed Project Pages** - Complete information including tech stack, contributors, and GitHub links
+- **Easy Contribution** - Simple process for adding your project to the hub
+- **Contact Form** - Get in touch with the maintainers
+- **About Page** - Learn more about the platform and its mission
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
@@ -65,30 +65,6 @@ A modern, open-source platform for showcasing and discovering final year student
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Project Structure
-
-\`\`\`
-final-year-projects-hub/
-├── app/                      # Next.js app directory
-│   ├── page.tsx             # Homepage with project cards
-│   ├── project/[id]/        # Dynamic project details pages
-│   ├── submit/              # Project submission page
-│   ├── contribute/          # Contribution guidelines
-│   ├── about/               # About page
-│   ├── contact/             # Contact page
-│   ├── layout.tsx           # Root layout
-│   └── globals.css          # Global styles
-├── components/              # React components
-│   ├── header.tsx           # Navigation header
-│   ├── footer.tsx           # Footer component
-│   ├── project-card.tsx     # Project card component
-│   └── search-filter.tsx    # Search and filter UI
-├── data/                    # Data files
-│   └── projects.json        # Project data
-├── public/                  # Static assets
-│   └── projects/            # Project screenshots
-└── README.md               # This file
-\`\`\`
 
 ## 🤝 Contributing
 
@@ -170,9 +146,7 @@ We welcome contributions from students and developers! Here's how you can add yo
 - ❌ No plagiarized or copied projects
 - ❌ No inappropriate or offensive content
 
-For detailed instructions, visit the [Contribute Page](http://localhost:3000/contribute).
-
-## 📊 Available Categories
+## Available Categories
 
 - Machine Learning
 - Web Development
@@ -185,27 +159,6 @@ For detailed instructions, visit the [Contribute Page](http://localhost:3000/con
 - AR/VR
 - Cloud Computing
 
-## 🎯 Roadmap
-
-- [ ] Add user authentication
-- [ ] Implement project voting/likes system
-- [ ] Add comment section for projects
-- [ ] Integrate with database (PostgreSQL/MongoDB)
-- [ ] Add project tags for better filtering
-- [ ] Implement dark/light mode toggle
-- [ ] Add project analytics dashboard
-- [ ] Create API for external integrations
-- [ ] Add RSS feed for new projects
-- [ ] Implement advanced search with multiple filters
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Maintainers
-
-- **Your Name** - [GitHub](https://github.com/yourusername) | [Email](mailto:your.email@example.com)
-
 ## 🙏 Acknowledgments
 
 - Thanks to all contributors who have shared their amazing projects
@@ -214,11 +167,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Have questions or suggestions? Reach out to us:
+Have questions or suggestions? Reach out to me:
 
-- **Email:** contact@finalyearprojectshub.com
-- **GitHub Issues:** [Create an issue](https://github.com/yourusername/final-year-projects-hub/issues)
-- **Contact Form:** [Visit our contact page](http://localhost:3000/contact)
+- **Email:** letscode@lets-code.co.in
+- **GitHub Issues:** [Create an issue](https://github.com/avinash201199/final-year-projects-hub/issues)
 
 ## 🌟 Show Your Support
 
@@ -228,6 +180,4 @@ If you find this project helpful, please consider:
 - 💡 Suggesting new features
 - 🤝 Contributing your project
 
----
 
-**Made with ❤️ by students, for students**
