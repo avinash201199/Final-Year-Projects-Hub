@@ -27,7 +27,7 @@ A modern, open-source platform for showcasing and discovering final year student
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/final-year-projects-hub.git
+   git clone https://github.com/avinash201199/final-year-projects-hub.git
    cd final-year-projects-hub
    \`\`\`
 
@@ -60,7 +60,7 @@ We welcome contributions from students and developers! Here's how you can add yo
 ### Quick Start
 
 1. **Create an Issue First**
-   - Go to the [Issues](https://github.com/yourusername/final-year-projects-hub/issues) page
+   - Go to the [Issues](https://github.com/avinash201199/final-year-projects-hub/issues) page
    - Click "New Issue"
    - Include: project title, description, category, tech stack, and key features
    - Wait for approval before proceeding
