@@ -89,17 +89,12 @@ export default function AboutPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-2">Avinash Singh</h3>
-                  <p className="text-primary mb-4">Full Stack Developer & Open Source Enthusiast</p>
+                  <p className="text-primary mb-4">Software Engineer & Open Source Enthusiast</p>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Avinash is a passionate developer and educator committed to empowering students through technology.
-                    With a strong background in full-stack development and a love for open-source contributions, he
-                    created Final Year Projects Hub to provide a platform where students can showcase their innovative
-                    work and inspire the next generation of developers.
+                    I'm a passionate developer and educator dedicated to empowering students through technology. With a strong background in full-stack development and a deep interest in open-source contributions, I created Final Year Projects Hub to give students a space to showcase their innovative work and inspire the next generation of developers.
                   </p>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    He believes that every student project deserves recognition and that sharing knowledge is the key to
-                    collective growth. Through this platform, Avinash aims to bridge the gap between academic projects
-                    and real-world applications, helping students build portfolios that stand out.
+                    I believe every student project deserves recognition, and that sharing knowledge is the key to collective growth. Through this platform, my goal is to bridge the gap between academic projects and real-world applications, helping students build portfolios that truly stand out.
                   </p>
                   <div className="flex gap-4">
                     <a
