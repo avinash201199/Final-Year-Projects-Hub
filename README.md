@@ -88,20 +88,21 @@ We welcome contributions from students and developers! Here's how you can add yo
 6. **Update projects.json**
    - Open `data/projects.json`
    - Add your project following this format:
-   \`\`\`json
-   {
-     "id": 7,
-     "title": "Your Project Title",
-     "description": "Brief description (1-2 sentences)",
-     "category": "Machine Learning",
-     "techStack": ["React", "Node.js", "MongoDB"],
-     "github": "https://github.com/yourusername/your-project",
-     "image": "/projects/your-project-screenshot.jpg",
-     "contributors": ["Your Name", "Co-contributor Name"],
-     "featured": false,
-     "fullDescription": "Detailed description of your project, its features, and impact."
-   }
-   \`\`\`
+
+   ```json
+{
+  "id": 7,
+  "title": "Your Project Title",
+  "description": "Brief description (1-2 sentences)",
+  "category": "Machine Learning",
+  "techStack": ["React", "Node.js", "MongoDB"],
+  "github": "https://github.com/yourusername/your-project",
+  "live": "live link",
+  "image": "/projects/your-project-screenshot.jpg",
+  "contributors": ["Your Name", "Co-contributor Name"],
+  "featured": false,
+  "fullDescription": "Detailed description of your project, its features, and impact."
+}
 
 7. **Test Locally**
    \`\`\`bash
