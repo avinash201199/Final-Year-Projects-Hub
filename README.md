@@ -70,7 +70,7 @@ We welcome contributions from students and developers! Here's how you can add yo
 
 3. **Clone Your Fork**
    \`\`\`bash
-   git clone https://github.com/YOUR_USERNAME/final-year-projects-hub.git
+   git clone https://github.com/avinash201199/final-year-projects-hub.git
    cd final-year-projects-hub
    \`\`\`
 
