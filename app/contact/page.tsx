@@ -106,7 +106,7 @@ export default function ContactPage() {
                       href="mailto:contact@finalyearprojects.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      contact@finalyearprojects.com
+                      letscode@lets-code.co.in
                     </a>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
                   <h3 className="font-semibold mb-4">Follow Us</h3>
                   <div className="flex gap-4">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/avinash201199"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center h-12 w-12 rounded-lg border border-border bg-card hover:border-primary hover:bg-primary/10 transition-colors"
@@ -124,7 +124,7 @@ export default function ContactPage() {
                       <span className="sr-only">GitHub</span>
                     </a>
                     <a
-                      href="https://twitter.com"
+                      href="https://x.com/AvinashSingh_20"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center h-12 w-12 rounded-lg border border-border bg-card hover:border-primary hover:bg-primary/10 transition-colors"
@@ -133,7 +133,7 @@ export default function ContactPage() {
                       <span className="sr-only">Twitter</span>
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/avinash-singh-bb0b8a371/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center h-12 w-12 rounded-lg border border-border bg-card hover:border-primary hover:bg-primary/10 transition-colors"

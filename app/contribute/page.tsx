@@ -285,6 +285,7 @@ export default function ContributePage() {
   "category": "Machine Learning | IoT | Web Dev | Data Science | Blockchain | Mobile Dev",
   "techStack": ["Technology1", "Technology2", "Technology3"],
   "github": "https://github.com/your-username/your-project",
+  "live": "https://youre-website-link",
   "image": "/projects/your-project-name.png",
   "contributors": ["Your Name", "Co-contributor Name"],
   "featured": false,
