@@ -11,7 +11,7 @@ export function Header() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/contribute", label: "Contribute" },
-    { href: "/submit", label: "Submit Project" },
+    // { href: "/submit", label: "Submit Project" },
     { href: "/contact", label: "Contact" },
   ]
 
@@ -39,14 +39,14 @@ export function Header() {
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <Link
               href="/submit"
               className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
             >
               Submit
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile navigation */}

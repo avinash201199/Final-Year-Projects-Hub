@@ -17,7 +17,9 @@ interface ProjectCardProps {
     image: string
     contributors: string[]
     featured?: boolean
+    live?: string
   }
+    live?: string
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
@@ -72,6 +74,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
               <span className="sr-only">GitHub</span>
             </a>
           </Button>
+          {project.live && (
+            <Link href={project.live} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm" className="flex items-center gap-1">
+                <ExternalLink className="h-4 w-4" /> Live
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

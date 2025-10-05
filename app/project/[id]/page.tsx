@@ -84,7 +84,7 @@ export default function ProjectDetailPage({ params }: { params: { id: string } }
                 </a>
               </Button>
               <Button asChild variant="outline" className="flex-1 bg-transparent">
-                <a href={project.github} target="_blank" rel="noopener noreferrer">
+                <a href={project.live} target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="mr-2 h-4 w-4" />
                   Live Demo
                 </a>

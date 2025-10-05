@@ -97,6 +97,9 @@ export default function ContributePage() {
                         <strong className="text-foreground">GitHub Repository:</strong> Link to your project repo
                       </li>
                       <li>
+                        <strong className="text-foreground">Live Link:</strong> (Optional) URL to your deployed project or demo
+                      </li>
+                      <li>
                         <strong className="text-foreground">Contributors:</strong> Names of all team members
                       </li>
                       <li>
