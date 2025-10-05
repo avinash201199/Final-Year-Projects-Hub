@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "AI-Powered Code Review Assistant",
+    "description": "An intelligent system that automatically reviews code and provides suggestions for improvements using machine learning.",
+    "category": "Machine Learning",
+    "techStack": ["Python", "TensorFlow", "Flask", "React"],
+    "github": "https://github.com/example/ai-code-review",
+    "image": "/projects/ai-code-review.jpg",
+    "contributors": ["Sarah Johnson", "Mike Chen"],
+    "featured": true,
+    "fullDescription": "This project leverages advanced machine learning algorithms to analyze code quality, detect potential bugs, and suggest improvements. It integrates seamlessly with popular version control systems and provides real-time feedback to developers."
+  },
+  {
+    "id": 2,
+    "title": "Smart Campus Navigation System",
+    "description": "IoT-based indoor navigation system for university campuses with real-time location tracking.",
+    "category": "IoT",
+    "techStack": ["Arduino", "Node.js", "MongoDB", "React Native"],
+    "github": "https://github.com/example/campus-nav",
+    "image": "/projects/campus-navigation.jpg",
+    "contributors": ["Alex Kumar", "Emily Zhang"],
+    "featured": true,
+    "fullDescription": "An innovative IoT solution that helps students and visitors navigate complex campus buildings. Uses beacon technology and smartphone sensors to provide turn-by-turn indoor navigation with accessibility features."
+  },
+  {
+    "id": 3,
+    "title": "E-Commerce Platform with AR",
+    "description": "Full-stack e-commerce platform featuring augmented reality product visualization.",
+    "category": "Web Dev",
+    "techStack": ["Next.js", "PostgreSQL", "Three.js", "Stripe"],
+    "github": "https://github.com/example/ar-ecommerce",
+    "image": "/projects/ar-ecommerce.jpg",
+    "contributors": ["David Park"],
+    "featured": false,
+    "fullDescription": "A modern e-commerce solution that allows customers to visualize products in their space using AR technology. Includes payment processing, inventory management, and a responsive admin dashboard."
+  },
+  {
+    "id": 4,
+    "title": "Healthcare Data Analytics Dashboard",
+    "description": "Interactive dashboard for analyzing patient data and predicting health trends.",
+    "category": "Data Science",
+    "techStack": ["Python", "Pandas", "Plotly", "Django"],
+    "github": "https://github.com/example/health-analytics",
+    "image": "/projects/health-analytics.jpg",
+    "contributors": ["Lisa Martinez", "James Wilson"],
+    "featured": true,
+    "fullDescription": "A comprehensive analytics platform that helps healthcare providers make data-driven decisions. Features predictive modeling, patient risk assessment, and interactive visualizations of health trends."
+  },
+  {
+    "id": 5,
+    "title": "Blockchain-Based Voting System",
+    "description": "Secure and transparent voting system using blockchain technology.",
+    "category": "Blockchain",
+    "techStack": ["Solidity", "Ethereum", "Web3.js", "React"],
+    "github": "https://github.com/example/blockchain-voting",
+    "image": "/projects/blockchain-voting.jpg",
+    "contributors": ["Ryan Thompson"],
+    "featured": false,
+    "fullDescription": "A decentralized voting application that ensures transparency and security through blockchain technology. Prevents fraud and allows for verifiable, anonymous voting with real-time results."
+  },
+  {
+    "id": 6,
+    "title": "Real-Time Collaboration Whiteboard",
+    "description": "Web-based collaborative whiteboard with real-time synchronization.",
+    "category": "Web Dev",
+    "techStack": ["React", "Socket.io", "Canvas API", "Node.js"],
+    "github": "https://github.com/example/collab-whiteboard",
+    "image": "/projects/collab-whiteboard.jpg",
+    "contributors": ["Nina Patel", "Tom Anderson"],
+    "featured": false,
+    "fullDescription": "An interactive whiteboard application that enables teams to collaborate in real-time. Features include drawing tools, text annotations, image uploads, and session recording capabilities."
+  }
+]
