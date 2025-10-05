@@ -96,8 +96,7 @@ We welcome contributions from students and developers! Here's how you can add yo
 "description": "Brief description (1-2 sentences)",
 "category": "Machine Learning",
 "techStack": ["React", "Node.js", "MongoDB"],
-"github": "https://github.com/yourusername/your-project
-",
+"github": "https://github.com/yourusername/your-project",
 "live": "live link",
 "image": "/projects/your-project-screenshot.jpg",
 "contributors": ["Your Name", "Co-contributor Name"],
