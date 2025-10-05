@@ -9,12 +9,12 @@ A modern, open-source platform for showcasing and discovering final year student
 
 ## Tech Stack
 
-- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
-- **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
-- **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **Data Storage:** JSON-based (easily upgradeable to database)
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS 4
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Data Storage:** JSON-based 
 
 ## 📦 Installation
 
