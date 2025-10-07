@@ -45,7 +45,7 @@
   "description": "Focuses on the role of social media in promoting the safety of women in Indian cities with special reference to the role of social media websites and applications like Twitter platform.",
   "category": "Data Analysis / Research",
   "techStack": ["JavaScript", "Flask", "python", "Twitter API"],
-  "github": "https://github.com/damarudhvarma",
+  "github": "https://github.com/damarudhvarma/Assessing-women-s-safety-in-Indian-cities-through-Twitter-Data-Analysis",
   "live": "",
   "image": "/projects/women-safety.png",
   "contributors": ["Damarudh Varma"],
