@@ -38,5 +38,18 @@
   "contributors": ["Avinash Singh"],
   "featured": true,
   "fullDescription": "This weather application allows users to check the current weather conditions of any city by entering its name. It utilizes the OpenWeather API to fetch real-time data and displays it in a user-friendly interface. The project is designed to help beginners understand how to work with APIs and handle asynchronous data in JavaScript."
+},
+  {
+  "id": 4,
+  "title": "Assessing women's safety in Indian cities through Twitter Data Analysis",
+  "description": "Focuses on the role of social media in promoting the safety of women in Indian cities with special reference to the role of social media websites and applications like Twitter platform.",
+  "category": "Data Analysis / Research",
+  "techStack": ["JavaScript", "Flask", "python", "Twitter API"],
+  "github": "https://github.com/damarudhvarma/Assessing-women-s-safety-in-Indian-cities-through-Twitter-Data-Analysis",
+  "live": "",
+  "image": "/projects/women-safety.png",
+  "contributors": ["Damarudh Varma"],
+  "featured": false,
+  "fullDescription": "we use TWEEPY package from python to download tweets from twitter but every time INTERNET will not available to download tweets online so we downloaded MEETOO tweets on women safety and safe inside dataset folder. Application will read the tweets to detect women’s sentiments. "
 }
 ]
