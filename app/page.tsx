@@ -34,28 +34,35 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="border-b border-border bg-gradient-to-b from-background to-card">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
-          <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance">
-              Discover Innovative <span className="text-primary">Student Projects</span>
-            </h1>
-            <p className="text-lg sm:text-xl text-muted-foreground mb-8 text-pretty">
-              Explore a curated collection of final year projects from talented students. Get inspired, learn, and
-              showcase your own work.
-            </p>
-          </div>
+      <section className="relative bg-gradient-to-r from-blue-800 to-purple-700 text-white overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 drop-shadow-lg animate-fade-in">
+            Discover Innovative <span className="text-yellow-400">Student Projects</span>
+          </h1>
+          <p className="text-lg md:text-xl max-w-2xl mx-auto text-white/90 mb-8 drop-shadow-sm animate-fade-in">
+            Explore a curated collection of final year projects from talented students. Get inspired, learn, and showcase your own work.
+          </p>
+          <a
+            href="#all-projects"
+            className="inline-block bg-yellow-400 text-blue-900 font-semibold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 animate-bounce"
+          >
+            Explore Projects
+          </a>
         </div>
+
+        {/* Decorative Blobs */}
+        <div className="absolute -top-32 -left-32 w-96 h-96 bg-white/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob"></div>
+        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-white/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob animation-delay-2000"></div>
       </section>
 
       {/* Featured Projects */}
       {featuredProjects.length > 0 && (
-        <section className="border-b border-border bg-card">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <div className="flex items-center gap-2 mb-8">
-              <Sparkles className="h-6 w-6 text-primary" />
+        <section className="border-b border-border bg-white py-16">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-3 mb-8">
+              <Sparkles className="h-6 w-6 text-yellow-400 animate-pulse" />
               <h2 className="text-3xl font-bold">Featured Projects</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -68,8 +75,8 @@ export default function HomePage() {
       )}
 
       {/* All Projects */}
-      <section className="bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section id="all-projects" className="bg-gray-50 py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-8">All Projects</h2>
 
           <SearchFilter
@@ -82,11 +89,11 @@ export default function HomePage() {
 
           {filteredProjects.length === 0 ? (
             <div className="text-center py-16">
-              <p className="text-lg text-muted-foreground">No projects found matching your criteria.</p>
+              <p className="text-lg text-gray-500">No projects found matching your criteria.</p>
             </div>
           ) : (
             <>
-              <p className="text-sm text-muted-foreground mb-6">
+              <p className="text-sm text-gray-500 mb-6">
                 Showing {filteredProjects.length} project{filteredProjects.length !== 1 ? "s" : ""}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -104,6 +111,40 @@ export default function HomePage() {
           )}
         </div>
       </section>
+
+      {/* Animations CSS */}
+      <style jsx>{`
+        .animate-fade-in {
+          animation: fadeInUp 0.8s forwards;
+        }
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-blob {
+          animation: blob 8s infinite;
+        }
+        @keyframes blob {
+          0%, 100% {
+            transform: translate(0px, 0px) scale(1);
+          }
+          33% {
+            transform: translate(30px, -20px) scale(1.1);
+          }
+          66% {
+            transform: translate(-20px, 30px) scale(0.9);
+          }
+        }
+        .animation-delay-2000 {
+          animation-delay: 2s;
+        }
+      `}</style>
     </div>
   )
 }
