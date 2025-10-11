@@ -4,6 +4,10 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+// The Inter font import is not used, but we can leave it
+import { Inter } from "next/font/google"; 
+// Make sure this path is correct. If your file is Chatbot.tsx, it should be "@/components/Chatbot"
+import Chatbot from "@/components/ChatWidget"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +36,9 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Chatbot />
       </body>
     </html>
   )
 }
+

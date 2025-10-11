@@ -6,6 +6,7 @@ import { SearchFilter } from "@/components/search-filter"
 import projectsData from "@/data/projects.json"
 import { Sparkles } from "lucide-react"
 
+
 export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("all")

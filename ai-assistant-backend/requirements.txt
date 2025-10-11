@@ -1,0 +1,11 @@
+flask
+flask_cors
+langchain
+langchain-community
+beautifulsoup4
+python-dotenv
+faiss-cpu
+
+# Libraries for Hugging Face
+langchain-huggingface
+sentence-transformers
