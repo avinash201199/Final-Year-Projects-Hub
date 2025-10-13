@@ -64,5 +64,19 @@
   "contributors": ["Vidhi Bhutia"],
   "featured": false,
   "fullDescription": "Image Filtering Studio is a web-based application that allows users to upload images and apply a variety of filters and enhancements, such as grayscale, blur, edge detection, and more. Built with Flask and OpenCV, it processes images efficiently and provides instant visual feedback. The project demonstrates skills in image processing, web integration, and UI interactivity."
+},
+{
+  "id": 7,
+  "title": "MusicSphere",
+  "description": "An interactive music streaming web app that lets users explore, play, and filter songs with a clean UI.",
+  "category": "Web Development",
+  "techStack": ["HTML", "CSS", "JavaScript", "XML"],
+  "github": "https://github.com/Vidhi-bhutia/MusicSphere",
+  "live": "https://vidhi-bhutia.github.io/MusicSphere/",
+  "image": "/projects/musicsphere.png",
+  "contributors": ["Vidhi Bhutia"],
+  "featured": false,
+  "fullDescription": "MusicSphere is a web-based music library where users can explore tracks by language and play them directly in-browser. Built with HTML, CSS, XML and JavaScript, it emphasizes lightweight performance and ease of navigation."
 }
+
 ]
