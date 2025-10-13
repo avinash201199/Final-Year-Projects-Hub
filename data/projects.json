@@ -60,7 +60,7 @@
   "techStack": ["Python", "Flask", "OpenCV", "HTML", "CSS", "JavaScript"],
   "github": "https://github.com/Vidhi-bhutia/Image-Filtering-Studio",
   "live": "https://image-filtering-studio.onrender.com/",
-  "image": "/projects/image-filtering-studio.jpg",
+  "image": "/projects/image-filtering-studio.png",
   "contributors": ["Vidhi Bhutia"],
   "featured": false,
   "fullDescription": "Image Filtering Studio is a web-based application that allows users to upload images and apply a variety of filters and enhancements, such as grayscale, blur, edge detection, and more. Built with Flask and OpenCV, it processes images efficiently and provides instant visual feedback. The project demonstrates skills in image processing, web integration, and UI interactivity."
