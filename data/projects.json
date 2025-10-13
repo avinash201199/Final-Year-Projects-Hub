@@ -77,6 +77,18 @@
   "contributors": ["Vidhi Bhutia"],
   "featured": false,
   "fullDescription": "MusicSphere is a web-based music library where users can explore tracks by language and play them directly in-browser. Built with HTML, CSS, XML and JavaScript, it emphasizes lightweight performance and ease of navigation."
+},
+{
+  "id": 7,
+  "title": "MyFlix - Video Playback Website",
+  "description": "A web-based video playback platform that allows users to stream, and browse videos with a responsive interface.",
+  "category": "Web Development",
+  "techStack": ["HTML", "CSS", "XML"],
+  "github": "https://github.com/Vidhi-bhutia/MyFlix-Video-Playback-website",
+  "live": "https://vidhi-bhutia.github.io/MyFlix-Video-Playback-website/index.html",
+  "image": "/projects/myflix.png",
+  "contributors": ["Vidhi Bhutia"],
+  "featured": false,
+  "fullDescription": "MyFlix is a responsive video streaming website where users can browse and play videos. Built entirely with HTML, CSS, and JavaScript, it focuses on clean UI, efficient playback controls, and seamless user experience."
 }
-
 ]
