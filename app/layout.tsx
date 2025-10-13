@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="system">
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true} enableColorScheme={false}>
           <Header />
           <main>{children}</main>
           <Footer />
