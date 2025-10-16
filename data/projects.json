@@ -51,5 +51,18 @@
   "contributors": ["Damarudh Varma"],
   "featured": false,
   "fullDescription": "we use TWEEPY package from python to download tweets from twitter but every time INTERNET will not available to download tweets online so we downloaded MEETOO tweets on women safety and safe inside dataset folder. Application will read the tweets to detect women’s sentiments. "
+},
+{
+  "id": 5,
+  "title": "Image Filtering Studio",
+  "description": "An interactive web app that lets users apply various filters and transformations to images in real time.",
+  "category": "Machine Learning",
+  "techStack": ["Python", "Flask", "OpenCV", "HTML", "CSS", "JavaScript"],
+  "github": "https://github.com/Vidhi-bhutia/Image-Filtering-Studio",
+  "live": "https://image-filtering-studio.onrender.com/",
+  "image": "/projects/image-filtering-studio.png",
+  "contributors": ["Vidhi Bhutia"],
+  "featured": false,
+  "fullDescription": "Image Filtering Studio is a web-based application that allows users to upload images and apply a variety of filters and enhancements, such as grayscale, blur, edge detection, and more. Built with Flask and OpenCV, it processes images efficiently and provides instant visual feedback. The project demonstrates skills in image processing, web integration, and UI interactivity."
 }
 ]
