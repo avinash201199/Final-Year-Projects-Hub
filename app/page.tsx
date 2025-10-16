@@ -34,7 +34,7 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-800 to-purple-700 text-white overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48 text-center">
@@ -53,13 +53,13 @@ export default function HomePage() {
         </div>
 
         {/* Decorative Blobs */}
-        <div className="absolute -top-32 -left-32 w-96 h-96 bg-white/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob"></div>
-        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-white/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob animation-delay-2000"></div>
+  <div className="absolute -top-32 -left-32 w-96 h-96 bg-popover/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob"></div>
+  <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-popover/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob animation-delay-2000"></div>
       </section>
 
       {/* Featured Projects */}
       {featuredProjects.length > 0 && (
-        <section className="border-b border-border bg-white py-16">
+        <section className="border-b border-border bg-card py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-8">
               <Sparkles className="h-6 w-6 text-yellow-400 animate-pulse" />
@@ -75,7 +75,7 @@ export default function HomePage() {
       )}
 
       {/* All Projects */}
-      <section id="all-projects" className="bg-gray-50 py-16">
+  <section id="all-projects" className="bg-background py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-8">All Projects</h2>
 

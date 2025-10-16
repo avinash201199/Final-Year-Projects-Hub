@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { GraduationCap } from "lucide-react"
+import { ThemeToggle } from './theme-toggle'
 
 export function Header() {
   const pathname = usePathname()
@@ -36,6 +37,9 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
+            <div className="ml-2">
+              <ThemeToggle />
+            </div>
           </nav>
 
           {/* Mobile menu button */}
@@ -62,6 +66,9 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+          <div>
+            <ThemeToggle />
+          </div>
         </nav>
       </div>
     </header>
