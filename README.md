@@ -17,7 +17,7 @@
 **A modern, open-source platform for showcasing and discovering final year student projects.**  
 Built with Next.js and designed to help students share their innovative work with the global community.
 
-[🚀 Live Demo](#) • [📖 Documentation](#about) • [🤝 Contribute](#-contributing) • [💬 Community](https://github.com/avinash201199/final-year-projects-hub/discussions)
+[🚀 Live Demo](https://final-year-projects-hub.vercel.app/) • [📖 Documentation](#about) • [🤝 Contribute](#-contributing) • [💬 Community](https://github.com/avinash201199/final-year-projects-hub/discussions)
 
 </div>
 
@@ -196,124 +196,68 @@ npm start
 
 </div>
 
-### 🎯 How to Add Your Project
+### 🎯 Quick Start Guide
 
-<details open>
-<summary><b>Complete Contribution Guide</b></summary>
+<table>
+<tr>
+<td width="33%" align="center">
 
-#### Step 1: Create an Issue First ✋
+#### 1️⃣ Create Issue
+Open an [issue](https://github.com/avinash201199/final-year-projects-hub/issues/new) describing your project
 
-Before adding your project, create an issue for review:
+</td>
+<td width="33%" align="center">
 
-1. Go to [Issues](https://github.com/avinash201199/final-year-projects-hub/issues)
-2. Click **"New Issue"**
-3. Include:
-   - Project title
-   - Brief description
-   - Category
-   - Tech stack
-   - Key features
-4. Wait for approval before proceeding
+#### 2️⃣ Fork & Add
+Fork the repo, add your project to `data/projects.json`
 
-#### Step 2: Fork & Clone 🔄
+</td>
+<td width="33%" align="center">
 
-```bash
-# Fork the repository on GitHub, then clone your fork
-git clone https://github.com/YOUR_USERNAME/final-year-projects-hub.git
-cd final-year-projects-hub
-```
+#### 3️⃣ Submit PR
+Create a pull request and wait for review
 
-#### Step 3: Create a Branch 🌿
+</td>
+</tr>
+</table>
 
-```bash
-git checkout -b add-project-your-project-name
-```
+<div align="center">
 
-#### Step 4: Add Your Screenshot 📸
+### 📖 **[Read Complete Contributing Guide →](CONTRIBUTING.md)**
 
-- Add your image to `public/projects/`
-- Name it descriptively: `my-awesome-project.jpg`
-- **Recommended size**: 1200x630px (16:9 ratio)
-- **Supported formats**: JPG, PNG, WebP
-- **Max file size**: 500KB for optimal performance
+**Detailed instructions including:**
+- ⚙️ Technical requirements & setup
+- 🔧 Troubleshooting common issues
+- 📝 JSON structure & validation
+- 🎨 Code style guidelines
+- 🧪 Testing checklist
 
-#### Step 5: Update projects.json 📝
+[![Read Guide](https://img.shields.io/badge/📖_Read_Full_Guide-CONTRIBUTING.md-8b5cf6?style=for-the-badge)](CONTRIBUTING.md)
 
-Open `data/projects.json` and add your project:
+</div>
 
-```json
-{
-  "id": 7,
-  "title": "Your Project Title",
-  "description": "Concise description (1-2 sentences max)",
-  "category": "Machine Learning",
-  "techStack": ["React", "Node.js", "MongoDB", "TensorFlow"],
-  "github": "https://github.com/yourusername/your-project",
-  "live": "https://your-project-demo.com",
-  "image": "/projects/your-project-screenshot.jpg",
-  "contributors": ["Your Name", "Co-contributor Name"],
-  "featured": false,
-  "fullDescription": "Detailed description of your project, its features, impact, and what makes it unique. Explain the problem it solves and the technologies used."
-}
-```
-
-#### Step 6: Test Locally 🧪
-
-```bash
-npm run dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) and verify:
-- ✅ Your project appears in the list
-- ✅ Image loads correctly
-- ✅ All links work
-- ✅ Description displays properly
-
-#### Step 7: Commit & Push 🚀
-
-```bash
-git add .
-git commit -m "Add: [Your Project Name] - Brief description"
-git push origin add-project-your-project-name
-```
-
-#### Step 8: Create Pull Request 📬
-
-1. Go to your fork on GitHub
-2. Click **"Compare & pull request"**
-3. Fill out the PR template
-4. Reference the issue number: `Closes #123`
-5. Wait for review and feedback
-
-</details>
-
-### ✅ Contribution Guidelines
+### ✅ Quick Guidelines
 
 <table>
 <tr>
 <td width="50%">
 
-#### ✅ DO's
-
-- ✓ Submit final year or capstone projects only
-- ✓ Include working GitHub repository link
-- ✓ Provide clear, concise descriptions
-- ✓ Use high-quality screenshots (min 800x600px)
-- ✓ List all contributors accurately
+**✅ Requirements**
+- ✓ Final year or capstone projects only
+- ✓ Working GitHub repository link
+- ✓ High-quality screenshot (1200x630px)
+- ✓ Clear project description
 - ✓ Test locally before submitting
-- ✓ Follow the JSON format exactly
 
 </td>
 <td width="50%">
 
-#### ❌ DON'Ts
-
-- ✗ No plagiarized or copied projects
-- ✗ No inappropriate or offensive content
-- ✗ No broken or non-functional links
-- ✗ No low-quality or blurry images
-- ✗ No incomplete project information
-- ✗ No spam or irrelevant projects
+**❌ Avoid**
+- ✗ Plagiarized or copied projects
+- ✗ Broken or non-functional links
+- ✗ Low-quality or blurry images
+- ✗ Incomplete information
+- ✗ Spam or irrelevant content
 
 </td>
 </tr>
