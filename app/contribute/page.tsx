@@ -1,16 +1,65 @@
-import { GitFork, GitPullRequest, FileJson, CheckCircle, ImageIcon, FileText } from "lucide-react"
+import { GitFork, GitPullRequest, FileJson, CheckCircle, ImageIcon, FileText, BookOpen, Wrench } from "lucide-react"
 
 export default function ContributePage() {
   return (
     <div className="min-h-screen py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         {/* Header */}
-        <div className="mb-12 animate-fade-in">
+        <div className="mb-8 animate-fade-in">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-balance">Contribute Your Project</h1>
           <p className="text-lg text-muted-foreground text-pretty">
             Help grow our community by adding your final year project to the hub. Follow these simple steps to
             contribute.
           </p>
+        </div>
+
+        {/* Full Contributing Guide Banner */}
+        <div 
+          className="mb-12 p-6 rounded-xl border-2 border-primary/50 bg-gradient-to-r from-primary/10 to-primary/5 animate-fade-in"
+          style={{ animationDelay: "0.05s" }}
+        >
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex items-center gap-3 flex-1">
+              <div className="p-3 rounded-lg bg-primary/20">
+                <BookOpen className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-1">Complete Contributing Guide</h3>
+                <p className="text-sm text-muted-foreground">
+                  Detailed setup instructions, troubleshooting, code guidelines & more
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://github.com/avinash201199/Final-Year-Projects-Hub/blob/main/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors shadow-sm hover:shadow-md whitespace-nowrap"
+            >
+              <BookOpen className="h-5 w-5" />
+              Read Full Guide
+            </a>
+          </div>
+          <div className="mt-4 pt-4 border-t border-primary/20">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+              <div className="flex items-center gap-2">
+                <Wrench className="h-4 w-4 text-primary" />
+                <span className="text-muted-foreground">Setup & Requirements</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="h-4 w-4 text-primary" />
+                <span className="text-muted-foreground">Testing Guidelines</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <FileText className="h-4 w-4 text-primary" />
+                <span className="text-muted-foreground">Code Style Guide</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <GitFork className="h-4 w-4 text-primary" />
+                <span className="text-muted-foreground">Troubleshooting Tips</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Why Contribute Section */}
