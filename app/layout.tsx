@@ -5,6 +5,7 @@ import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ThemeProvider } from '@/components/theme-provider'
+import SpotlightMount from '@/components/spotlight-mount'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true} enableColorScheme={false}>
           <Header />
+          <SpotlightMount />
           <main>{children}</main>
           <Footer />
         </ThemeProvider>
