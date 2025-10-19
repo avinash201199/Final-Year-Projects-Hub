@@ -65,4 +65,27 @@
   "featured": false,
   "fullDescription": "Image Filtering Studio is a web-based application that allows users to upload images and apply a variety of filters and enhancements, such as grayscale, blur, edge detection, and more. Built with Flask and OpenCV, it processes images efficiently and provides instant visual feedback. The project demonstrates skills in image processing, web integration, and UI interactivity."
 }
+,
+{
+  "id": 7,
+  "title": "Loan-Application",
+  "description": "An AI-powered loan underwriting & lending app built for rural and semi-urban India, designed to work on low-bandwidth networks and for users with low digital literacy.",
+  "category": "Flutter / AI/ML",
+  "techStack": [
+    "Frontend: Flutter",
+    "Backend: FastAPI",
+    "AI/ML: Custom Credit Risk Scoring",
+    "AI/ML: LLM (loan explanations)",
+    "Database: PostgreSQL",
+    "Cache: Redis",
+    "Messaging: Twilio",
+    "Infra: AWS"
+  ],
+  "github": "https://github.com/ArpitGupta4957/loanApplication",
+  "live": "https://drive.google.com/file/d/18yEdvIJS89ykl4VfPGOg5XrSOso-Fk2y/view?usp=drive_link",
+  "image": "/projects/loap-Application.jpg",
+  "contributors": ["Arpit Gupta"],
+  "featured": false,
+  "fullDescription": "GrameenLend is your personal financial companion app that blends AI-driven credit scoring, SMS chatbot support, and instant disbursements to make small-ticket personal loans accessible, fast, and transparent."
+}
 ]
