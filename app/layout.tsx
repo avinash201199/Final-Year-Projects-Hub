@@ -19,8 +19,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Final Year Projects Hub - Showcase Student Innovation",
-  description: "Discover and showcase innovative final year projects from talented students across various domains.",
-    generator: 'v0.app'
+  description:
+    "Discover and showcase innovative final year projects from talented students across various domains.",
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -29,9 +30,18 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable}`}
+    >
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={true} enableColorScheme={false}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          enableColorScheme={false}
+        >
           <Header />
           <SpotlightMount />
           <main>{children}</main>
