@@ -2,9 +2,10 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github, Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import { useFavourites } from "@/hooks/use-favourites"
 
 interface ProjectCardProps {
   project: {
@@ -19,15 +20,35 @@ interface ProjectCardProps {
     featured?: boolean
     live?: string
   }
-    live?: string
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const { isFavourite, toggle, hydrated } = useFavourites()
+  const fav = hydrated ? isFavourite(project.id) : false
+
   return (
-    <div className="group relative overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
+    <div className="group relative overflow-hidden rounded-lg border border-border bg-card transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
       {project.featured && (
         <Badge className="absolute top-4 right-4 z-10 bg-primary text-primary-foreground">Featured</Badge>
       )}
+
+      {/* Favourite toggle */}
+      <button
+        type="button"
+        aria-label={fav ? "Remove from favourites" : "Add to favourites"}
+        onClick={(e) => {
+          e.preventDefault()
+          e.stopPropagation()
+          toggle(project.id)
+        }}
+        className="absolute top-4 left-4 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-background/90 text-muted-foreground shadow transition-colors hover:text-red-500 focus-visible:ring-ring/50 focus-visible:ring-2"
+      >
+        <Heart
+          className="h-5 w-5"
+          data-state={fav ? "on" : "off"}
+          style={fav ? { fill: "currentColor" } : undefined}
+        />
+      </button>
 
       <div className="relative h-48 w-full overflow-hidden bg-muted">
         <Image
