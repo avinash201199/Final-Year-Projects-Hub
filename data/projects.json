@@ -67,20 +67,11 @@
 }
 ,
 {
-  "id": 7,
+  "id": 6,
   "title": "Loan-Application",
   "description": "An AI-powered loan underwriting & lending app built for rural and semi-urban India, designed to work on low-bandwidth networks and for users with low digital literacy.",
   "category": "Flutter / AI/ML",
-  "techStack": [
-    "Frontend: Flutter",
-    "Backend: FastAPI",
-    "AI/ML: Custom Credit Risk Scoring",
-    "AI/ML: LLM (loan explanations)",
-    "Database: PostgreSQL",
-    "Cache: Redis",
-    "Messaging: Twilio",
-    "Infra: AWS"
-  ],
+  "techStack": ["Flutter","FastAPI","LLM","PostgreSQL","Redis","Twilio","AWS"],
   "github": "https://github.com/ArpitGupta4957/loanApplication",
   "live": "https://drive.google.com/file/d/18yEdvIJS89ykl4VfPGOg5XrSOso-Fk2y/view?usp=drive_link",
   "image": "/projects/loap-Application.jpg",
