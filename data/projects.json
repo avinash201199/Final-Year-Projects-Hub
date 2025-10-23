@@ -65,18 +65,18 @@
   "featured": false,
   "fullDescription": "Image Filtering Studio is a web-based application that allows users to upload images and apply a variety of filters and enhancements, such as grayscale, blur, edge detection, and more. Built with Flask and OpenCV, it processes images efficiently and provides instant visual feedback. The project demonstrates skills in image processing, web integration, and UI interactivity."
 }
+,
 {
   "id": 6,
-  "title": "Drone Flight Data Analysis Visualization",
-  "description": "A data-driven project that visualizes and analyzes drone flight telemetry to uncover performance trends and flight patterns.",
-  "category": "Data Science",
-  "techStack": ["Python", "Pandas", "Matplotlib", "Plotly", "Dash"],
-  "github": "https://github.com/Bloop31/Drone-Flight-Data-Analysis-Visualization",
-  "live": "",
-  "image": "/projects/drone-flight-data-analysis-visualization.jpg",
-  "contributors": ["Prajjit Basu"],
+  "title": "Loan-Application",
+  "description": "An AI-powered loan underwriting & lending app built for rural and semi-urban India, designed to work on low-bandwidth networks and for users with low digital literacy.",
+  "category": "Flutter / AI/ML",
+  "techStack": ["Flutter","FastAPI","LLM","PostgreSQL","Redis","Twilio","AWS"],
+  "github": "https://github.com/ArpitGupta4957/loanApplication",
+  "live": "https://drive.google.com/file/d/18yEdvIJS89ykl4VfPGOg5XrSOso-Fk2y/view?usp=drive_link",
+  "image": "/projects/loap-Application.jpg",
+  "contributors": ["Arpit Gupta"],
   "featured": false,
-  "fullDescription": "Drone Flight Data Analysis Visualization is a data analytics project focused on processing and visualizing flight telemetry collected from drones. It includes cleaning flight data, plotting altitude and velocity trends, analyzing GPS paths, and building interactive dashboards to interpret performance insights. The project showcases data visualization, analytical thinking, and proficiency in Python libraries."
+  "fullDescription": "GrameenLend is your personal financial companion app that blends AI-driven credit scoring, SMS chatbot support, and instant disbursements to make small-ticket personal loans accessible, fast, and transparent."
 }
-
 ]
