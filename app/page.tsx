@@ -36,25 +36,29 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-800 to-purple-700 text-white overflow-hidden">
+      <section className="relative bg-background border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 drop-shadow-lg animate-fade-in">
-            Discover Innovative <span className="text-yellow-400">Student Projects</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 animate-fade-in">
+            Discover Innovative <span className="text-muted-foreground">Student Projects</span>
           </h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto text-white/90 mb-8 drop-shadow-sm animate-fade-in">
-            Explore a curated collection of final year projects from talented students. Get inspired, learn, and showcase your own work.
+          <p className="text-lg md:text-xl max-w-3xl mx-auto text-muted-foreground mb-8 animate-fade-in leading-relaxed">
+            Explore an exclusive collection of cutting-edge final year projects crafted by brilliant minds. 
+            Discover innovation, gain inspiration, and showcase your groundbreaking work to the world.
           </p>
           <a
             href="#all-projects"
-            className="inline-block bg-yellow-400 text-blue-900 font-semibold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 animate-bounce"
+            className="inline-block bg-primary text-primary-foreground font-semibold px-10 py-4 rounded-lg hover:bg-primary/90 transition-all hover:-translate-y-1"
+            onClick={(e) => {
+              e.preventDefault()
+              document.getElementById('all-projects')?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              })
+            }}
           >
             Explore Projects
           </a>
         </div>
-
-        {/* Decorative Blobs */}
-  <div className="absolute -top-32 -left-32 w-96 h-96 bg-popover/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob"></div>
-  <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-popover/20 rounded-full blur-3xl mix-blend-multiply pointer-events-none animate-blob animation-delay-2000"></div>
       </section>
 
       {/* Featured Projects */}
