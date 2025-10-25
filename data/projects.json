@@ -1,17 +1,18 @@
 [
   {
   "id": 1,
-  "title": "Free Courses with Certificates",
-  "description": "A curated collection of free online courses offering certificates across various domains.",
-  "category": "Education / Resources",
-  "techStack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "GitHub Pages"],
-  "github": "https://github.com/avinash201199/Free-courses-with-Certificates",
-  "live": "https://free-courses-with-certificates.netlify.app/",
-  "image": "/projects/free-courses-with-certificates.jpg",
+  "title": "Memory Game",
+  "description": "A classic memory matching game built with HTML, CSS, and JavaScript, designed to test and improve cognitive skills.",
+  "category": "Web Development / Game",
+  "techStack": ["HTML", "CSS", "JavaScript", "Vercel"],
+  "github": "https://github.com/avinash201199/Memory-Game",
+  "live": "https://memory-game-anonymous11.vercel.app/",
+  "image": "/projects/memoryGame.png",
   "contributors": ["Avinash Singh"],
-  "featured": true,
-  "fullDescription": "This repository offers a comprehensive list of free online courses that provide certificates upon completion. It serves as a valuable resource for individuals seeking to enhance their skills and showcase their achievements. The project is open for contributions, allowing others to add more courses and improve the repository's structure."
-},
+  "featured": false,
+  "fullDescription": "This is a web-based implementation of the classic memory matching game. Users flip cards to find matching pairs, exercising their concentration and recall. The game is built using fundamental web technologies (HTML, CSS, JavaScript) for a lightweight and accessible experience, deployed for easy access."
+}
+,
   {
   "id": 2,
   "title": "MemeGenerator",
@@ -78,5 +79,19 @@
   "contributors": ["Arpit Gupta"],
   "featured": false,
   "fullDescription": "GrameenLend is your personal financial companion app that blends AI-driven credit scoring, SMS chatbot support, and instant disbursements to make small-ticket personal loans accessible, fast, and transparent."
+},
+  {
+  "id": 7,
+  "title": "Free Courses with Certificates",
+  "description": "A curated collection of free online courses offering certificates across various domains.",
+  "category": "Education / Resources",
+  "techStack": ["HTML", "CSS", "JavaScript", "Tailwind CSS", "GitHub Pages"],
+  "github": "https://github.com/avinash201199/Free-courses-with-Certificates",
+  "live": "https://free-courses-with-certificates.netlify.app/",
+  "image": "/projects/free-courses-with-certificates.jpg",
+  "contributors": ["Avinash Singh"],
+  "featured": true,
+  "fullDescription": "This repository offers a comprehensive list of free online courses that provide certificates upon completion. It serves as a valuable resource for individuals seeking to enhance their skills and showcase their achievements. The project is open for contributions, allowing others to add more courses and improve the repository's structure."
 }
+
 ]
