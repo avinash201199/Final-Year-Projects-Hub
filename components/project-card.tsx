@@ -41,21 +41,27 @@ export function ProjectCard({ project }: ProjectCardProps) {
           e.stopPropagation()
           toggle(project.id)
         }}
-        className="absolute top-4 left-4 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-background/90 text-muted-foreground shadow transition-colors hover:text-red-500 focus-visible:ring-ring/50 focus-visible:ring-2"
+        className={`absolute top-4 left-4 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full bg-background/90 shadow transition-all duration-200 hover:scale-110 focus-visible:ring-ring/50 focus-visible:ring-2 ${
+          fav ? 'text-red-500' : 'text-muted-foreground hover:text-red-400'
+        }`}
       >
         <Heart
-          className="h-5 w-5"
-          data-state={fav ? "on" : "off"}
-          style={fav ? { fill: "currentColor" } : undefined}
+          className={`h-5 w-5 transition-all duration-200 ${
+            fav ? 'fill-red-500 text-red-500' : ''
+          }`}
         />
       </button>
 
       <div className="relative h-48 w-full overflow-hidden bg-muted">
         <Image
           src={project.image || "/placeholder.svg"}
-          alt={project.title}
+          alt={`${project.title} - ${project.category} project using ${project.techStack.slice(0, 2).join(', ')}`}
           fill
+          loading="lazy"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
           className="object-cover transition-transform duration-300 group-hover:scale-105"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 
