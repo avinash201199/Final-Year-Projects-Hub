@@ -78,5 +78,18 @@
   "contributors": ["Arpit Gupta"],
   "featured": false,
   "fullDescription": "GrameenLend is your personal financial companion app that blends AI-driven credit scoring, SMS chatbot support, and instant disbursements to make small-ticket personal loans accessible, fast, and transparent."
+},
+  {
+  "id": 7,
+  "title": "MyFlix - Video Playback Website",
+  "description": "A simple movie and TV series streaming site with interactive video cards and language-based filters.",
+  "category": "Web Development",
+  "techStack": ["HTML5", "CSS3", "JavaScript"],
+  "github": "https://github.com/Vidhi-bhutia/MyFlix-Video-Playback-website",
+  "live": "https://vidhi-bhutia.github.io/MyFlix-Video-Playback-website/",
+  "image": "/projects/myflix-video-playback.jpg",
+  "contributors": ["Vidhi Bhutia"],
+  "featured": false,
+  "fullDescription": "MyFlix is a front-end movie streaming website where users can explore trending and most-watched videos categorized by five languages — Hindi, Tamil, English, Malayalam, and Kannada. It features an interactive layout with video cards that allow users to play videos instantly, shortlist favorites, and soon, save videos to a 'Watch Later' list. The interface includes a home navigation button and dynamic category filtering built using JavaScript. Future updates aim to include user authentication and improved responsiveness for all devices."
 }
 ]
