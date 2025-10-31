@@ -1,5 +1,18 @@
 [
   {
+  "id": 7,
+  "title": "AI Doctor Assistant",
+  "description": "A MERN stack application designed to assist patients with AI-driven medical symptom analysis.",
+  "category": "Web Development / HealthTech",
+  "techStack": ["MongoDB", "Express.js", "React", "Node.js"],
+  "github": "https://github.com/Garvsharma-codes/AI-Doctor-Assistant-PatientSide",
+  "live": "https://assistant-patientside.onrender.com/",
+  "image": "/projects/DRassistant.png",
+  "contributors": ["Garv Sharma"],
+  "featured": true,
+  "fullDescription": "An intelligent, AI-powered web application built with the MERN stack. This platform allows patients to describe their symptoms and receive preliminary medical advice and guidance. The backend is powered by Node.js and Express, with a responsive React frontend for the patient-side interface."
+},
+  {
   "id": 1,
   "title": "Free Courses with Certificates",
   "description": "A curated collection of free online courses offering certificates across various domains.",
